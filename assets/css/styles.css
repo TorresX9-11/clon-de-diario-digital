@@ -1,0 +1,125 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    padding: 12px;
+    position: sticky;
+    background-color: rgb(193, 184, 184);
+}
+
+header nav{
+    text-align: center;
+}
+
+nav a{
+    margin: 1%;
+    font-weight: bold;
+    color: black;
+}
+
+.contenedorIMG {
+    width: 15%;
+}
+
+.slideshow-container {
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    margin: auto;
+    border: 1px solid rgb(255, 251, 251);
+    padding: 1px;
+    overflow: hidden;
+    
+
+}
+
+.slides {
+    display:none;
+    width: 100%;
+    height: auto;
+    position: relative;
+    justify-content: center;
+}
+
+.active {
+    display:flex;
+    align-items: center;
+    
+}
+
+.text-overlay {
+    position:absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.456);
+    color: rgb(255, 254, 254);
+    padding:5%;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.baner{
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+
+}
+
+.baner img{
+    width: 100%;
+}
+
+.Titular h1{ 
+    text-align: left;
+    margin-bottom: 15px;
+    font-size: 50px;
+    color: #5D6673;
+    line-height: 1.1;
+    font-family: "FiraSans-Bold", Helvetica Neue, -apple-system, "system-ui", BlinkMacSystemFont, sans-serif;
+}
+
+.Titular h2{
+    color: #5D6673;
+}
+
+div .imageP{
+    width: 100%;
+
+}
+div.cuerpo {
+    text-align: justify;
+    line-height: 178%;
+    font-size: 20px;
+    margin-bottom: 30px;
+    max-width: 60%;
+    padding: 30px;
+}
+blockquote p{
+    border-left: 4px solid #EF1D27;
+    color: #5D6673;
+    font-family: "FiraSans-Bold", Helvetica Neue, -apple-system, "system-ui", BlinkMacSystemFont, sans-serif;
+    line-height: 1.5;
+    font-style: italic;
+    font-size: 22px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    margin: 30px;
+}
+footer{
+    background-color: #CF3E3C;
+}
+.footer .cont-logo img{
+    align-self: center;
+    margin: auto;
+    width: 220px;
+    height: 65px;
+    text-align: center;
+}
+
+   
