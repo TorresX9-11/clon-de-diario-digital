@@ -113,13 +113,17 @@ blockquote p{
 }
 footer{
     background-color: #CF3E3C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.footer .cont-logo img{
+.cont-logo img{
     align-self: center;
     margin: auto;
     width: 220px;
     height: 65px;
     text-align: center;
+    
 }
 
    
